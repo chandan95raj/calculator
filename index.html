@@ -15,72 +15,73 @@
         </div>
         <div class="number-box-div">
             <div class="button-box">
-                <button class="buttons" id="clear" value="clear">
+                <button class="buttons" id="clear" value="clear" onclick="window.location.reload();">
                     AC
                 </button>
-                <button class="buttons" id="backspace" value="backspace">
+                <button class="buttons" id="backspace" value="backspace" onclick="window.location.reload();">
                     X
                 </button>
-                <button class="buttons" id="percent" value="%">
+                
+                <button class="buttons" id="percent" value="%" onclick="takeInput('%')">
                     %
                 </button>
-                <button class="buttons" id="divide" value="/">
+                <button class="buttons" id="divide" value="/" onclick="takeInput('/')">
                     ÷
                 </button>
             </div>
             <div class="button-box">
-                <button class="number-buttons" id="seven" value="7">
+                <button class="number-buttons" id="seven" value="7" onclick="takeInput('7')">
                     7
                 </button>
-                <button class="number-buttons" id="eight" value="8">
+                <button class="number-buttons" id="eight" value="8" onclick="takeInput('8')">
                     8
                 </button>
-                <button class="number-buttons" id="nine" value="9">
+                <button class="number-buttons" id="nine" value="9" onclick="takeInput('9')">
                     9
                 </button>
-                <button class="buttons" id="multiply" value="*">
+                <button class="buttons" id="multiply" value="*" onclick="takeInput('*')">
                     *
                 </button>
             </div>
             <div class="button-box">
-                <button class="number-buttons" id="four" value="4">
+                <button class="number-buttons" id="four" value="4" onclick="takeInput('4')">
                     4
                 </button>
-                <button class="number-buttons" id="five" value="5">
+                <button class="number-buttons" id="five" value="5" onclick="takeInput('5')">
                     5
                 </button>
-                <button class="number-buttons" id="six" value="6">
+                <button class="number-buttons" id="six" value="6" onclick="takeInput('6')">
                     6
                 </button>
-                <button class="buttons" id="minus" value="-">
+                <button class="buttons" id="minus" value="-" onclick="takeInput('-')">
                     -
                 </button>
             </div>
             <div class="button-box">
-                <button class="number-buttons" id="one" value="1">
+                <button class="number-buttons" id="one" value="1" onclick="takeInput('1')">
                     1
                 </button>
-                <button class="number-buttons" id="two" value="2">
+                <button class="number-buttons" id="two" value="2" onclick="takeInput('2')">
                     2
                 </button>
-                <button class="number-buttons" id="three" value="3">
+                <button class="number-buttons" id="three" value="3" onclick="takeInput('3')">
                     3
                 </button>
-                <button class="buttons" id="plus" value="+">
+                <button class="buttons" id="plus" value="+" onclick="takeInput('+')">
                     +
                 </button>
             </div>
             <div class="button-box">
-                <button class="number-buttons" id="double-zero" value="00">
+                <button class="number-buttons" id="double-zero" value="00" onclick="takeInput('00')">
                     00
                 </button>
-                <button class="number-buttons" id="zero" value="0">
+                <button class="number-buttons" id="zero" value="0" onclick="takeInput('0')">
                     0
                 </button>
-                <button class="number-buttons" id="decimal" value=".">
+                <button class="number-buttons" id="decimal" value="." onclick="takeInput('.')">
                     .
                 </button>
-                <button class="buttons equal-btn" id="equal" value="=">
+                <button class="buttons equal-btn" id="equal" value="=" onclick="takeInput('=')">
                     =
                 </button>
             </div>
